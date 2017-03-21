@@ -1157,6 +1157,7 @@ public class MobileNetworkSettings extends Activity  {
                     switch (buttonNetworkMode) {
                         case Phone.NT_MODE_WCDMA_PREF:
                         case Phone.NT_MODE_GSM_ONLY:
+                        case Phone.NT_MODE_WCDMA_ONLY:
                         case Phone.NT_MODE_LTE_GSM_WCDMA:
                         case Phone.NT_MODE_LTE_CDMA_EVDO_GSM_WCDMA:
                         case Phone.NT_MODE_CDMA:
