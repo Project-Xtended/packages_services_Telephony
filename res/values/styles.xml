@@ -341,5 +341,4 @@
     <style name="ShortcutsHintTextAppearance" parent="@style/HeadlineTextAppearance">
         <item name="android:textSize">16sp</item>
     </style>
-
 </resources>
