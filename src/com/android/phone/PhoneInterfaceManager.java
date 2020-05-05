@@ -2059,6 +2059,7 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
                                 .setCallingPid(Binder.getCallingPid())
                                 .setCallingUid(Binder.getCallingUid())
                                 .setMethod("getCellLocation")
+                                .setMinSdkVersionForCoarse(Build.VERSION_CODES.BASE)
                                 .setMinSdkVersionForFine(Build.VERSION_CODES.Q)
                                 .build());
         switch (locationResult) {
